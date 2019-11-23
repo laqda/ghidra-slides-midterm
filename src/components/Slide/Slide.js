@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./Section.css";
+import styles from "./Slide.css";
 
-export const Section = ({children}) => {
+export const Slide = ({children}) => {
   return (
     <section>
       <div className={styles.Section}>

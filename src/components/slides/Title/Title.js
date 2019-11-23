@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "./Title.css";
 import cover from "./Ghidra.png";
-import {Section} from "../../Section/Section";
+import {Slide} from "../../Slide/Slide";
 
 export const Title = () => {
   return (
-    <Section>
+    <Slide>
       <div className={styles.title}>
         Soutenance intermédiaire
       </div>
@@ -13,6 +13,6 @@ export const Title = () => {
       <div className={styles.names}>
         Marianne FAURE & Quentin MICHEL
       </div>
-    </Section>
+    </Slide>
   );
 };
