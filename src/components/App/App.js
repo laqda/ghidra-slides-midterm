@@ -14,35 +14,27 @@ export const App = () => {
       <div className="reveal">
         <Header slideIndex={slideIndex} hideOnSlides={hideBarsOnSlides} titles={[
           {
-            title: "test1",
+            title: "Introduction",
             subtitles: [
               {
-                title: "sub1",
+                title: "Conférence RSA",
                 length: 3,
               },
               {
-                title: "sub1",
+                title: "Logiciels équivalents",
                 length: 3,
-              },
-              {
-                title: "sub1",
-                length: 4,
               },
             ],
           },
           {
-            title: "test2",
+            title: "Fonctionnalités",
             subtitles: [
               {
-                title: "sub2",
+                title: "Désassembleur",
                 length: 3,
               },
               {
-                title: "sub2",
-                length: 4,
-              },
-              {
-                title: "sub2",
+                title: "Décompilateur",
                 length: 3,
               },
             ],
@@ -62,13 +54,13 @@ export const App = () => {
           <section>Slide 10</section>
           <section>Slide 11</section>
           <section>Slide 12</section>
-          <section>Slide 13</section>
-          <section>Slide 14</section>
-          <section>Slide 15</section>
-          <section>Slide 16</section>
-          <section>Slide 17</section>
-          <section>Slide 18</section>
-          <section>Slide 19</section>
+          {/*<section>Slide 13</section>*/}
+          {/*<section>Slide 14</section>*/}
+          {/*<section>Slide 15</section>*/}
+          {/*<section>Slide 16</section>*/}
+          {/*<section>Slide 17</section>*/}
+          {/*<section>Slide 18</section>*/}
+          {/*<section>Slide 19</section>*/}
         </div>
         <Footer slideIndex={slideIndex} hideOnSlides={hideBarsOnSlides}/>
       </div>

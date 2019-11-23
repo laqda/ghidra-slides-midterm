@@ -9,14 +9,14 @@ export const Header = ({slideIndex, hideOnSlides = [], titles = []}) => {
       <div className={styles.HeaderLevel1}>
         {titles.map((title, index) => (
           <div key={index} className={`${styles.HeaderLevel1} ${index === idCurrentTitleLevel1 ? styles.selected : ''}`}>
-            {title.title.toUpperCase()}
+            {title.title}
           </div>
         ))}
       </div>
       <div className={styles.HeaderLevel2}>
         {titles[idCurrentTitleLevel1].subtitles.map((title, index) => (
           <div key={index} className={`${styles.HeaderLevel2} ${index === idCurrentTitleLevel2 ? styles.selected : ''}`}>
-            {title.title.toUpperCase()}
+            {title.title}
           </div>
         ))}
       </div>
