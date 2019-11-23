@@ -1,6 +1,7 @@
 import React from "react";
 import styles from './App.css';
 import {Title} from "../slides/Title/Title";
+import {Footer} from "../Footer/Footer";
 
 export const App = () => {
   return (
@@ -11,7 +12,7 @@ export const App = () => {
           <section>Slide 1</section>
           <section>Slide 2</section>
         </div>
-
+        <Footer hideOnSlides={[0]}/>
       </div>
     </div>
   );

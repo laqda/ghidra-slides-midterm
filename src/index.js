@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Reveal from "reveal.js";
+import "./style/config.css";
 import "./style/reveal.scss";
 import "./style/white.css";
 import "./style/style.css";
