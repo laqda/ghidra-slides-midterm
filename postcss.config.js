@@ -4,9 +4,10 @@ module.exports = {
     'postcss-modules': {
       globalModulePaths: [
         'src/style/config.css',
-        'src/style/white.css',
+        'src/style/reset.css',
         'src/style/reveal.scss',
         'src/style/style.css',
+        'src/style/white.css',
       ]
     }
   }
