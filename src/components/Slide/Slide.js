@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./Slide.css";
 
-export const Slide = ({children}) => {
+export const Slide = ({children, ...props}) => {
   return (
-    <section>
+    <section {...props}>
       <div className={styles.Slide}>
         {children}
       </div>

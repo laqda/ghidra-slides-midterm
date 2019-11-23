@@ -4,6 +4,7 @@ import {Title} from "../slides/Title/Title";
 import {Footer} from "../Footer/Footer";
 import {Header} from "../Header/Header";
 import Reveal from "reveal.js";
+import {Introduction} from "../slides/Introduction/Introduction";
 
 const hideBarsOnSlides = [0];
 
@@ -18,7 +19,7 @@ export const App = () => {
             subtitles: [
               {
                 title: "Conférence RSA",
-                length: 3,
+                length: 4,
               },
               {
                 title: "Logiciels équivalents",
@@ -42,6 +43,7 @@ export const App = () => {
         ]}/>
         <div className="slides">
           <Title/>
+          <Introduction/>
           <section>Slide 1</section>
           <section>Slide 2</section>
           <section>Slide 3</section>

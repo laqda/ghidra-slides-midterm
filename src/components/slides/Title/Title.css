@@ -5,6 +5,7 @@
 
 .ghidra {
     width: 46vh;
+    box-shadow: none !important;
 }
 
 .names {
