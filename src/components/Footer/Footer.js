@@ -8,8 +8,8 @@ export const Footer = ({slideIndex, hideOnSlides = []}) => {
       <div>
         Ghidra - Soutenance intermédiaire
       </div>
-      <div>
-        {slideIndex}
+      <div className={styles.slideIndex}>
+        <b>{slideIndex + 1}</b> / {Reveal.getTotalSlides()}
       </div>
     </div>
   ) : null;

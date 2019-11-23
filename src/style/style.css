@@ -2,3 +2,12 @@ img {
     border: none !important;
     box-shadow: none !important;
 }
+
+.slides {
+    margin-top: calc((var(--header-level1-height) + var(--header-level2-height) - var(--footer-height)) / 2) !important;
+}
+
+.controls {
+    bottom: calc(12px + var(--footer-height)) !important;
+    color: var(--main-color) !important;
+}

@@ -9,6 +9,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 14px;
+    height: var(--footer-height);
+    padding: 0 10px;
     box-sizing: border-box;
+}
+
+.slideIndex {
+    font-size: 20px;
 }

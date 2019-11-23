@@ -3,7 +3,10 @@
     --secondary-color: #e22726;
 
     --header-level1-bg-color: var(--main-color);
+    --header-level1-height: 35px;
     --header-level2-bg-color: var(--secondary-color);
-    --progress-color: #fff4;
+    --header-level2-height: 35px;
+    --progress-color: #fff7;
     --footer-bg-color: var(--main-color);
+    --footer-height: 35px;
 }
