@@ -257,7 +257,7 @@ body {
  * PROGRESS BAR
  *********************************************/
 .reveal .progress {
-    background: var(--footer-bg-color);
+    background: none;
     color: #2a76dd; }
 
 .reveal .progress span {
