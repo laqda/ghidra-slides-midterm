@@ -1,4 +1,9 @@
 :root {
-    --progress-color: #fff5;
-    --footer-bg-color: #323945;
+    --main-color: #682f26;
+    --secondary-color: #e22726;
+
+    --header-level1-bg-color: var(--main-color);
+    --header-level2-bg-color: var(--secondary-color);
+    --progress-color: #fff4;
+    --footer-bg-color: var(--main-color);
 }
