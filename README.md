@@ -1,6 +1,4 @@
-# empty-project
-
-Empty project.
+# ghidra-slides-midterm
 
 ## Building and running on localhost
 
@@ -25,8 +23,4 @@ npm run build-prod
 ## Running
 
 Open the file `dist/index.html` in your browser
-
-## Credits
-
-Made with [createapp.dev](https://createapp.dev/)
 
