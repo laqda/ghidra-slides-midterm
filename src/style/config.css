@@ -1,6 +1,6 @@
 :root {
-    --main-color: #682f26;
-    --secondary-color: #e22726;
+    --main-color: #333233;
+    --secondary-color: #5c5b5c;
 
     --header-level1-bg-color: var(--main-color);
     --header-level1-height: 35px;

@@ -73,6 +73,7 @@ export const App = () => {
 const useSlideIndex = () => {
   const [slideIndex, setSlideIndex] = useState(0);
   useEffect(() => {
+    setSlideIndex(Reveal.getIndices().h);
     Reveal.addEventListener('slidechanged', () => {
       setSlideIndex(Reveal.getIndices().h);
     });
