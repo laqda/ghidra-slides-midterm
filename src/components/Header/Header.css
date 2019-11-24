@@ -11,9 +11,9 @@
 .HeaderLevel1, .HeaderLevel2 {
     display: flex;
     align-items: center;
-    color: white;
+    color: #fff8;
     font-size: 20px;
-    padding: 5px;
+    /*padding: 4px;*/
 }
 
 .HeaderLevel1 > * , .HeaderLevel2 > * {
@@ -26,21 +26,13 @@
     background-color: var(--header-level1-bg-color);
 }
 
-
-.HeaderLevel1.selected {
-    color: var(--header-level1-bg-color);
-}
-
 .HeaderLevel2 {
     height: var(--header-level2-height);
     background-color: var(--header-level2-bg-color);
 }
 
-.HeaderLevel2.selected {
-    color: var(--header-level2-bg-color);
-}
-
 .selected {
-    background-color: #e5e5e5;
+    /*background-color: #3335;*/
+    color: white;
 }
 

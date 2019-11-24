@@ -19,7 +19,7 @@ export const App = () => {
             subtitles: [
               {
                 title: "Conférence RSA",
-                length: 4,
+                length: 1,
               },
               {
                 title: "Logiciels équivalents",
@@ -53,9 +53,9 @@ export const App = () => {
           <section>Slide 7</section>
           <section>Slide 8</section>
           <section>Slide 9</section>
-          <section>Slide 10</section>
-          <section>Slide 11</section>
-          <section>Slide 12</section>
+          {/*<section>Slide 10</section>*/}
+          {/*<section>Slide 11</section>*/}
+          {/*<section>Slide 12</section>*/}
           {/*<section>Slide 13</section>*/}
           {/*<section>Slide 14</section>*/}
           {/*<section>Slide 15</section>*/}
