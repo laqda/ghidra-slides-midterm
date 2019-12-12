@@ -4,7 +4,7 @@
     bottom: 0;
     width: 100vw;
     background-color: var(--footer-bg-color);
-    font-size: 23px;
+    font-size: var(--footer-font-size);
     color: white;
     display: flex;
     justify-content: space-between;
@@ -15,5 +15,5 @@
 }
 
 .slideIndex {
-    font-size: 23px;
+    font-size: var(--footer-font-size);
 }

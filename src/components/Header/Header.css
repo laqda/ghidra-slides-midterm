@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     color: #fff8;
-    font-size: 26px;
+    font-size: var(--header-font-size);
     /*padding: 4px;*/
 }
 
