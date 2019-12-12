@@ -1,0 +1,29 @@
+.dragon {
+    width: 1em;
+    height: 1em;
+}
+
+.logo {
+    box-shadow: none !important;
+    background: none !important;
+    width: 150%;
+    margin-bottom: 50px !important;
+}
+
+.horizontal_layout {
+    display: flex;
+}
+
+.horizontal_layout > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.horizontal_layout > ul {
+    padding-left: 50px !important;
+    flex: 3;
+    white-space: nowrap;
+}
+

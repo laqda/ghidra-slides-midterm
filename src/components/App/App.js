@@ -8,6 +8,7 @@ import {Introduction, introductionTitles} from "../slides/Introduction/Introduct
 import {Build, buildTitles} from "../slides/Build/Build";
 import {Demo, demoTitles} from "../slides/Demo/Demo";
 import {FollowingEvents, followingEventsTitles} from "../slides/FollowingEvents/FollowingEvents";
+import {Ghidra, ghidraTitles} from "../slides/Ghidra/Ghidra";
 
 const hideBarsOnSlides = [0];
 
@@ -18,6 +19,7 @@ export const App = () => {
       <div className="reveal">
         <Header slideIndex={slideIndex} hideOnSlides={hideBarsOnSlides} titles={[
           introductionTitles,
+          ghidraTitles,
           buildTitles,
           demoTitles,
           followingEventsTitles,
@@ -25,6 +27,7 @@ export const App = () => {
         <div className="slides">
           <Title/>
           <Introduction/>
+          <Ghidra/>
           <Build/>
           <Demo/>
           <FollowingEvents/>
