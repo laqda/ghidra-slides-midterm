@@ -10,3 +10,8 @@ img {
     bottom: calc(12px + var(--footer-height)) !important;
     color: var(--main-color) !important;
 }
+
+.em, .em-svg {
+    width: 1.2em;
+    height: 1.2em;
+}
