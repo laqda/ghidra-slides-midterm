@@ -7,11 +7,15 @@ export const introductionTitles = {
   title: "Introduction",
   subtitles: [
     {
-      title: "Conférence RSA",
-      length: 1,
+      title: "Reverse Ingineering",
+      length: 2,
     },
     {
-      title: "Logiciels équivalents",
+      title: "Le marché avant / après la révolution",
+      length: 4,
+    },
+    {
+      title: "Ghidra", // + tweets
       length: 3,
     },
   ],
