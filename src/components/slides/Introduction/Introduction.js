@@ -4,6 +4,7 @@ import {Slide} from "../../Slide/Slide";
 import rsa_conference from "./rsa_conference.png";
 import twitter_release_ghidra from "./twitter_release_ghidra.png"
 import twitter_nsa_background from "./twitter_nsa_background.png"
+import logo from "./logo.png"
 
 export const introductionTitles = {
   title: "Introduction",
@@ -67,6 +68,22 @@ export const Introduction = () => {
       </Slide>
       <Slide>
         tableau après
+      </Slide>
+      <Slide>
+        <div className={styles.horizontal_layout}>
+          <div>
+            <img className={styles.logo} src={logo}/>
+          </div>
+          <ul>
+            <li>développé depuis 10 ans</li>
+            <li>codé en Java et C++</li>
+            <li>cross-plateform</li>
+            <li>GUI et ligne de commande</li>
+            <li>système de plugins</li>
+            <li>modèle de processeur générique (SLEIGH)</li>
+            <li className="fragment"><b>undo / redo</b></li>
+          </ul>
+        </div>
       </Slide>
     </React.Fragment>
   );
