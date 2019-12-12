@@ -7,6 +7,10 @@
     flex-direction: column;
 }
 
+.HeaderLevel2 > span {
+    opacity: 0.5;
+}
+
 .HeaderLevel1, .HeaderLevel2 {
     display: flex;
     align-items: center;
@@ -35,3 +39,6 @@
     color: white;
 }
 
+.selected > span {
+    opacity: 1;
+}
