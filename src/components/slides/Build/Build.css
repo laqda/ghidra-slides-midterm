@@ -1,5 +1,13 @@
-.img-rsa-conference {
-    /*width: 80vw;*/
-    /*max-width: 90vw !important;*/
-    /*max-height: 60vh !important;*/
+.imgBuild {
+    background: none !important;
+    box-shadow: none !important;
+    width: 130%;
+    max-width: 130% !important;
+}
+
+.imgLaunch {
+    background: none !important;
+    box-shadow: none !important;
+    width: 100%;
+    max-width: 130% !important;
 }

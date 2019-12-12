@@ -1,12 +1,18 @@
 import React from "react";
 import styles from "./Build.css";
 import {Slide} from "../../Slide/Slide";
+import build from "./build.png";
+import launch from "./launch.png";
 
 export const buildTitles = {
   title: "Build the tool",
   subtitles: [
     {
-      title: "Dépendances",
+      title: "Pré-requis",
+      length: 1,
+    },
+    {
+      title: "Build",
       length: 1,
     },
     {
@@ -23,7 +29,14 @@ export const buildTitles = {
 export const Build = () => {
   return (
     <React.Fragment>
-      <Slide data-background-color="#361a56">
+      <Slide>
+        Pré-requis
+      </Slide>
+      <Slide data-background-color="#fff">
+        <img className={styles.imgBuild} src={build} alt="build"/>
+      </Slide>
+      <Slide data-background-color="#fff">
+        <img className={styles.imgLaunch} src={launch} alt="launch"/>
       </Slide>
     </React.Fragment>
   );
