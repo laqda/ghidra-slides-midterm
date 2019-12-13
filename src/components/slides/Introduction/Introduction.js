@@ -40,14 +40,20 @@ export const Introduction = () => {
         <div className={styles.blocs}>
           <div className={styles.bloc}>
             <h3>⬝ &nbsp;&nbsp;Analyse statique</h3>
-            <div>
-              étude approfondie du code source (désassembleur, décompilateur, ...)
+            <div className={styles.blocText}>
+              étude approfondie du code source
+            </div>
+            <div className={styles.blocExample}>
+              ex: désassembleur, décompilateur, ...
             </div>
           </div>
           <div className={styles.bloc}>
             <h3>⬝ &nbsp;&nbsp;Analyse dynamique</h3>
-            <div>
-              exécution et observations (réseau, débogueur, registres, mémoires, ...)
+            <div className={styles.blocText}>
+              exécution et observations
+            </div>
+            <div className={styles.blocExample}>
+              ex: réseau, débogueur, mémoires, ...
             </div>
           </div>
         </div>

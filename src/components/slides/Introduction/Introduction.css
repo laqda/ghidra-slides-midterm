@@ -27,6 +27,16 @@
     text-align: start;
 }
 
+.blocText, .blocExample {
+    margin-left: 55px;
+}
+
+.blocExample {
+    font-size: 30px;
+    color: #888;
+    font-style: italic;
+}
+
 .imgTweetGhidraCool {
     position: absolute;
 }
