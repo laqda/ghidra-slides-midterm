@@ -3,6 +3,8 @@ import styles from "./Build.css";
 import {Slide} from "../../Slide/Slide";
 import build from "./build.png";
 import launch from "./launch.png";
+import tweet from "./tweet.png";
+import tweet_background_black from "./tweet_background_black.png";
 
 export const buildTitles = {
   title: "Build the tool",
@@ -20,7 +22,7 @@ export const buildTitles = {
       length: 1,
     },
     {
-      title: "Backdoor", // rigolo + failles
+      title: "Any backdoors ?",
       length: 1,
     },
   ],
@@ -38,9 +40,9 @@ export const Build = () => {
       <Slide data-background-color="#fff">
         <img className={styles.imgLaunch} src={launch} alt="launch"/>
       </Slide>
-      <Slide>
-        backdoor
-      </Slide>
+      <Slide data-background={tweet_background_black}>
+      <img className={styles.imgTweet} src={tweet} alt="tweet-backdoor-ghidra"/>
+    </Slide>
     </React.Fragment>
   );
 };

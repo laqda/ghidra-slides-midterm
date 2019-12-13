@@ -11,3 +11,8 @@
     width: 100%;
     max-width: 130% !important;
 }
+
+.imgTweet {
+    border-radius: 2px;
+    width: 70%;
+}
