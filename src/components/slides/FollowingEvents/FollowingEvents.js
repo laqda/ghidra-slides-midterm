@@ -3,10 +3,10 @@ import styles from "./FollowingEvents.css";
 import {Slide} from "../../Slide/Slide";
 
 export const followingEventsTitles = {
-  title: "La suite",
+  title: "What next ?",
   subtitles: [
     {
-      title: "Mode debug",
+      title: "Debug mode",
       length: 1,
     },
     {
@@ -14,7 +14,7 @@ export const followingEventsTitles = {
       length: 1,
     },
     {
-      title: "Fonctionnement",
+      title: "How it works",
       length: 1,
     },
   ],
@@ -23,7 +23,11 @@ export const followingEventsTitles = {
 export const FollowingEvents = () => {
   return (
     <React.Fragment>
-      <Slide data-background-color="#361a56">
+      <Slide>
+      </Slide>
+      <Slide>
+      </Slide>
+      <Slide>
       </Slide>
     </React.Fragment>
   );

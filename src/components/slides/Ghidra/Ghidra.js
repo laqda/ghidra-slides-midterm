@@ -8,11 +8,7 @@ export const ghidraTitles = {
   title: <span>Ghidra <i className={`em em-dragon ${styles.dragon}`}/></span>, // + tweets
   subtitles: [
     {
-      title: "Caractéristiques",
-      length: 1,
-    },
-    {
-      title: "Concurrence",
+      title: "Overview",
       length: 1,
     },
     {
@@ -20,11 +16,11 @@ export const ghidraTitles = {
       length: 1,
     },
     {
-      title: "Projet partagé",
+      title: "Shared project",
       length: 1,
     },
     {
-      title: "Débogueur",
+      title: "Debugger",
       length: 1,
     },
   ],
@@ -47,10 +43,6 @@ export const Ghidra = () => {
             <li className="fragment"><b>undo / redo</b></li>
           </ul>
         </div>
-      </Slide>
-      <Slide>
-        Ghidra est sensé casser le marché<br/>
-        tableau comparatif
       </Slide>
       <Slide>
         P-Code

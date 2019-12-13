@@ -8,7 +8,7 @@ export const buildTitles = {
   title: "Build the tool",
   subtitles: [
     {
-      title: "Pré-requis",
+      title: "Requirements",
       length: 1,
     },
     {
@@ -16,11 +16,11 @@ export const buildTitles = {
       length: 1,
     },
     {
-      title: "Launch it",
+      title: "Start",
       length: 1,
     },
     {
-      title: "Pourquoi le faire ?", // rigolo + failles
+      title: "Backdoor", // rigolo + failles
       length: 1,
     },
   ],
@@ -37,6 +37,9 @@ export const Build = () => {
       </Slide>
       <Slide data-background-color="#fff">
         <img className={styles.imgLaunch} src={launch} alt="launch"/>
+      </Slide>
+      <Slide>
+        backdoor
       </Slide>
     </React.Fragment>
   );

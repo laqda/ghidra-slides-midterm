@@ -9,8 +9,9 @@ import {Build, buildTitles} from "../slides/Build/Build";
 import {Demo, demoTitles} from "../slides/Demo/Demo";
 import {FollowingEvents, followingEventsTitles} from "../slides/FollowingEvents/FollowingEvents";
 import {Ghidra, ghidraTitles} from "../slides/Ghidra/Ghidra";
+import {End} from "../slides/End/End";
 
-const hideBarsOnSlides = [0];
+const hideBarsOnSlides = [0, 17];
 
 export const App = () => {
   const slideIndex = useSlideIndex();
@@ -31,25 +32,7 @@ export const App = () => {
           <Build/>
           <Demo/>
           <FollowingEvents/>
-          <section>Slide 1</section>
-          <section>Slide 2</section>
-          <section>Slide 3</section>
-          <section>Slide 4</section>
-          <section>Slide 5</section>
-          <section>Slide 6</section>
-          <section>Slide 7</section>
-          <section>Slide 8</section>
-          <section>Slide 9</section>
-          <section>Slide 10</section>
-          <section>Slide 11</section>
-          <section>Slide 12</section>
-          <section>Slide 13</section>
-          <section>Slide 14</section>
-          <section>Slide 15</section>
-          <section>Slide 16</section>
-          <section>Slide 17</section>
-          <section>Slide 18</section>
-          <section>Slide 19</section>
+          <End/>
         </div>
         <Footer slideIndex={slideIndex} hideOnSlides={hideBarsOnSlides}/>
       </div>
