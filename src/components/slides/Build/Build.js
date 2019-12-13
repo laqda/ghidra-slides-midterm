@@ -5,6 +5,9 @@ import build from "./build.png";
 import launch from "./launch.png";
 import tweet from "./tweet.png";
 import tweet_background_black from "./tweet_background_black.png";
+import bison from "./bison.png";
+import java11 from "./java11.png";
+import gradle from "./gradle.png";
 
 export const buildTitles = {
   title: "Build the tool",
@@ -32,7 +35,11 @@ export const Build = () => {
   return (
     <React.Fragment>
       <Slide>
-        Pré-requis
+        <div className={styles.logos}>
+          <img className={styles.imgBison} src={bison} alt="bison"/>
+          <img className={styles.imgJava11} src={java11} alt="java11"/>
+          <img className={styles.imgGradle} src={gradle} alt="gradle"/>
+        </div>
       </Slide>
       <Slide data-background-color="#fff">
         <img className={styles.imgBuild} src={build} alt="build"/>
@@ -41,8 +48,8 @@ export const Build = () => {
         <img className={styles.imgLaunch} src={launch} alt="launch"/>
       </Slide>
       <Slide data-background={tweet_background_black}>
-      <img className={styles.imgTweet} src={tweet} alt="tweet-backdoor-ghidra"/>
-    </Slide>
+        <img className={styles.imgTweet} src={tweet} alt="tweet-backdoor-ghidra"/>
+      </Slide>
     </React.Fragment>
   );
 };

@@ -16,3 +16,27 @@
     border-radius: 2px;
     width: 70%;
 }
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgJava11, .imgGradle, .imgBison {
+    box-shadow: none !important;
+    background: none !important;
+}
+
+.imgJava11 {
+    width: 700px;
+    position: relative;
+}
+
+.imgBison {
+    width: 30%;
+}
+
+.imgGradle {
+    width: 30%;
+}
