@@ -6,11 +6,11 @@ export const followingEventsTitles = {
   title: "What next ?",
   subtitles: [
     {
-      title: "Debug mode",
+      title: "Infrastructure",
       length: 1,
     },
     {
-      title: "Architecture",
+      title: "Debug mode",
       length: 1,
     },
     {
@@ -28,7 +28,7 @@ export const FollowingEvents = () => {
       <Slide data-background-color="#f6f8fa">
       </Slide>
       <Slide data-background-color="#f6f8fa">
-        <b>Sleigh</b> + <b>Désassembleur</b>
+        <b>Sleigh</b> + <b>Désassembleur</b> + <b>Décompilateur</b>
       </Slide>
     </React.Fragment>
   );
