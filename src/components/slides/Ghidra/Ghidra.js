@@ -29,7 +29,7 @@ export const ghidraTitles = {
 export const Ghidra = () => {
   return (
     <React.Fragment>
-      <Slide>
+      <Slide data-background-color="#f6f8fa">
         <div className={styles.horizontal_layout}>
           <div>
             <img className={styles.logo} src={logo} alt="logo"/>
@@ -44,10 +44,10 @@ export const Ghidra = () => {
           </ul>
         </div>
       </Slide>
-      <Slide>
+      <Slide data-background-color="#f6f8fa">
         P-Code
       </Slide>
-      <Slide>
+      <Slide data-background-color="#f6f8fa">
         Projet partagé
       </Slide>
       <Slide data-background-color="#f6f8fa">

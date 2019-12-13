@@ -34,17 +34,17 @@ export const buildTitles = {
 export const Build = () => {
   return (
     <React.Fragment>
-      <Slide>
+      <Slide data-background-color="#f6f8fa">
         <div className={styles.logos}>
           <img className={styles.imgBison} src={bison} alt="bison"/>
           <img className={styles.imgJava11} src={java11} alt="java11"/>
           <img className={styles.imgGradle} src={gradle} alt="gradle"/>
         </div>
       </Slide>
-      <Slide data-background-color="#fff">
+      <Slide data-background-color="#f6f8fa">
         <img className={styles.imgBuild} src={build} alt="build"/>
       </Slide>
-      <Slide data-background-color="#fff">
+      <Slide data-background-color="#f6f8fa">
         <img className={styles.imgLaunch} src={launch} alt="launch"/>
       </Slide>
       <Slide data-background={tweet_background_black}>

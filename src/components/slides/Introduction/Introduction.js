@@ -22,7 +22,7 @@ export const introductionTitles = {
 export const Introduction = () => {
   return (
     <React.Fragment>
-      <Slide>
+      <Slide data-background-color="#f6f8fa">
         <h2>Pourquoi faire de la rétro-ingénierie ?</h2>
         <div>
           <ul>
@@ -36,7 +36,7 @@ export const Introduction = () => {
           className="em em-wink"/>
         </div>
       </Slide>
-      <Slide>
+      <Slide data-background-color="#f6f8fa">
         <div className={styles.blocs}>
           <div className={styles.bloc}>
             <h3>⬝ &nbsp;&nbsp;Analyse statique</h3>

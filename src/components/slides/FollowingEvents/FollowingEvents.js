@@ -23,11 +23,12 @@ export const followingEventsTitles = {
 export const FollowingEvents = () => {
   return (
     <React.Fragment>
-      <Slide>
+      <Slide data-background-color="#f6f8fa">
       </Slide>
-      <Slide>
+      <Slide data-background-color="#f6f8fa">
       </Slide>
-      <Slide>
+      <Slide data-background-color="#f6f8fa">
+        <b>Sleigh</b> + <b>Désassembleur</b>
       </Slide>
     </React.Fragment>
   );
