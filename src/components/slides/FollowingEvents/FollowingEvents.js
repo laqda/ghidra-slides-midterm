@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./FollowingEvents.css";
 import {Slide} from "../../Slide/Slide";
+import ghidra from "./ghidra.png"
 
 export const followingEventsTitles = {
   title: "What next ?",
@@ -27,8 +28,10 @@ export const FollowingEvents = () => {
       </Slide>
       <Slide data-background-color="#f6f8fa">
       </Slide>
-      <Slide data-background-color="#f6f8fa">
-        <b>Sleigh</b> + <b>Désassembleur</b> + <b>Décompilateur</b>
+      <Slide data-background={ghidra}>
+        <div className={styles.ghidra}>
+          <b>Sleigh</b> + <b>Désassembleur</b> + <b>Décompilateur</b>
+        </div>
       </Slide>
     </React.Fragment>
   );
