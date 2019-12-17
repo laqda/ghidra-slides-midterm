@@ -1,0 +1,314 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('/source-sans-pro-regular.0354d354.eot');
+    src: url('/source-sans-pro-regular.0354d354.eot?#iefix') format('embedded-opentype'),
+         url('/source-sans-pro-regular.2a9752a8.woff') format('woff'),
+         url('/source-sans-pro-regular.c3d56e96.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('/source-sans-pro-italic.3b219e6c.eot');
+    src: url('/source-sans-pro-italic.3b219e6c.eot?#iefix') format('embedded-opentype'),
+         url('/source-sans-pro-italic.1de053c1.woff') format('woff'),
+         url('/source-sans-pro-italic.e1d7adea.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('/source-sans-pro-semibold.ff9603b5.eot');
+    src: url('/source-sans-pro-semibold.ff9603b5.eot?#iefix') format('embedded-opentype'),
+         url('/source-sans-pro-semibold.c3c4ca4f.woff') format('woff'),
+         url('/source-sans-pro-semibold.3b98c52a.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('/source-sans-pro-semibolditalic.70243672.eot');
+    src: url('/source-sans-pro-semibolditalic.70243672.eot?#iefix') format('embedded-opentype'),
+         url('/source-sans-pro-semibolditalic.5e62ca19.woff') format('woff'),
+         url('/source-sans-pro-semibolditalic.c7571380.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+/**
+ * White theme for reveal.js. This is the opposite of the 'black' theme.
+ *
+ * By Hakim El Hattab, http://hakim.se
+ */
+section._has-dark-background_4cc81, section._has-dark-background_4cc81 h1, section._has-dark-background_4cc81 h2, section._has-dark-background_4cc81 h3, section._has-dark-background_4cc81 h4, section._has-dark-background_4cc81 h5, section._has-dark-background_4cc81 h6 {
+    color: #fff; }
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+body {
+    background: #fff;
+    background-color: #fff; }
+
+._reveal_4cc81 {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 42px;
+    font-weight: normal;
+    color: #222; }
+
+::selection {
+    color: #fff;
+    background: #98bdef;
+    text-shadow: none; }
+
+::-moz-selection {
+    color: #fff;
+    background: #98bdef;
+    text-shadow: none; }
+
+._reveal_4cc81 ._slides_4cc81 section,
+._reveal_4cc81 ._slides_4cc81 section > section {
+    line-height: 1.3;
+    font-weight: inherit; }
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+._reveal_4cc81 h1,
+._reveal_4cc81 h2,
+._reveal_4cc81 h3,
+._reveal_4cc81 h4,
+._reveal_4cc81 h5,
+._reveal_4cc81 h6 {
+    margin: 0 0 20px 0;
+    color: #222;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    text-shadow: none;
+    word-wrap: break-word; }
+
+._reveal_4cc81 h1 {
+    font-size: 2.5em; }
+
+._reveal_4cc81 h2 {
+    font-size: 1.6em; }
+
+._reveal_4cc81 h3 {
+    font-size: 1.3em; }
+
+._reveal_4cc81 h4 {
+    font-size: 1em; }
+
+._reveal_4cc81 h1 {
+    text-shadow: none; }
+
+/*********************************************
+ * OTHER
+ *********************************************/
+._reveal_4cc81 p {
+    margin: 20px 0;
+    line-height: 1.3; }
+
+/* Ensure certain elements are never larger than the slide itself */
+._reveal_4cc81 img,
+._reveal_4cc81 video,
+._reveal_4cc81 iframe {
+    max-width: 95%;
+    max-height: 95%; }
+
+._reveal_4cc81 strong,
+._reveal_4cc81 b {
+    font-weight: bold; }
+
+._reveal_4cc81 em {
+    font-style: italic; }
+
+._reveal_4cc81 ol,
+._reveal_4cc81 dl,
+._reveal_4cc81 ul {
+    display: inline-block;
+    text-align: left;
+    margin: 0 0 0 1em; }
+
+._reveal_4cc81 ol {
+    list-style-type: decimal; }
+
+._reveal_4cc81 ul {
+    list-style-type: disc; }
+
+._reveal_4cc81 ul ul {
+    list-style-type: square; }
+
+._reveal_4cc81 ul ul ul {
+    list-style-type: circle; }
+
+._reveal_4cc81 ul ul,
+._reveal_4cc81 ul ol,
+._reveal_4cc81 ol ol,
+._reveal_4cc81 ol ul {
+    display: block;
+    margin-left: 40px; }
+
+._reveal_4cc81 dt {
+    font-weight: bold; }
+
+._reveal_4cc81 dd {
+    margin-left: 40px; }
+
+._reveal_4cc81 blockquote {
+    display: block;
+    position: relative;
+    width: 70%;
+    margin: 20px auto;
+    padding: 5px;
+    font-style: italic;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
+
+._reveal_4cc81 blockquote p:first-child,
+._reveal_4cc81 blockquote p:last-child {
+    display: inline-block; }
+
+._reveal_4cc81 q {
+    font-style: italic; }
+
+._reveal_4cc81 pre {
+    display: block;
+    position: relative;
+    width: 90%;
+    margin: 20px auto;
+    text-align: left;
+    font-size: 0.55em;
+    font-family: monospace;
+    line-height: 1.2em;
+    word-wrap: break-word;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15); }
+
+._reveal_4cc81 code {
+    font-family: monospace;
+    text-transform: none; }
+
+._reveal_4cc81 pre code {
+    display: block;
+    padding: 5px;
+    overflow: auto;
+    max-height: 400px;
+    word-wrap: normal; }
+
+._reveal_4cc81 table {
+    margin: auto;
+    border-collapse: collapse;
+    border-spacing: 0; }
+
+._reveal_4cc81 table th {
+    font-weight: bold; }
+
+._reveal_4cc81 table th,
+._reveal_4cc81 table td {
+    text-align: left;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+    border-bottom: 1px solid; }
+
+._reveal_4cc81 table th[align="center"],
+._reveal_4cc81 table td[align="center"] {
+    text-align: center; }
+
+._reveal_4cc81 table th[align="right"],
+._reveal_4cc81 table td[align="right"] {
+    text-align: right; }
+
+._reveal_4cc81 table tbody tr:last-child th,
+._reveal_4cc81 table tbody tr:last-child td {
+    border-bottom: none; }
+
+._reveal_4cc81 sup {
+    vertical-align: super;
+    font-size: smaller; }
+
+._reveal_4cc81 sub {
+    vertical-align: sub;
+    font-size: smaller; }
+
+._reveal_4cc81 small {
+    display: inline-block;
+    font-size: 0.6em;
+    line-height: 1.2em;
+    vertical-align: top; }
+
+._reveal_4cc81 small * {
+    vertical-align: top; }
+
+/*********************************************
+ * LINKS
+ *********************************************/
+._reveal_4cc81 a {
+    color: #2a76dd;
+    text-decoration: none;
+    -webkit-transition: color .15s ease;
+    -moz-transition: color .15s ease;
+    transition: color .15s ease; }
+
+._reveal_4cc81 a:hover {
+    color: #6ca0e8;
+    text-shadow: none;
+    border: none; }
+
+._reveal_4cc81 ._roll_4cc81 span:after {
+    color: #fff;
+    background: #1a53a1; }
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+._reveal_4cc81 section img {
+    margin: 15px 0px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 4px solid #222;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+
+._reveal_4cc81 section img._plain_4cc81 {
+    border: 0;
+    box-shadow: none; }
+
+._reveal_4cc81 a img {
+    -webkit-transition: all .15s linear;
+    -moz-transition: all .15s linear;
+    transition: all .15s linear; }
+
+._reveal_4cc81 a:hover img {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: #2a76dd;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+._reveal_4cc81 ._controls_4cc81 {
+    color: #2a76dd; }
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+._reveal_4cc81 ._progress_4cc81 {
+    background: rgba(0, 0, 0, 0.2);
+    color: #2a76dd; }
+
+._reveal_4cc81 ._progress_4cc81 span {
+    -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+    -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+    transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+/*********************************************
+ * PRINT BACKGROUND
+ *********************************************/
+@media print {
+    ._backgrounds_4cc81 {
+        background-color: #fff; } }
+
+
+/*# sourceMappingURL=/white.c154dd37.css.map */
