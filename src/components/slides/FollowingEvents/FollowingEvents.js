@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./FollowingEvents.css";
 import {Slide} from "../../Slide/Slide";
 import ghidra from "./ghidra.png"
+import archi from "./archi.png"
+import archi2 from "./archi2.png"
 
 export const followingEventsTitles = {
   title: "What next ?",
@@ -24,7 +26,9 @@ export const followingEventsTitles = {
 export const FollowingEvents = () => {
   return (
     <React.Fragment>
-      <Slide data-background-color="#f6f8fa">
+      <Slide data-background={archi}>
+        <h2 className={styles.titleArchi}>Architecture complexe</h2>
+        {/*<img className={`fragment ${styles.imgArchi}`} src={archi2} alt="archi"/>*/}
       </Slide>
       <Slide data-background-color="#f6f8fa">
       </Slide>

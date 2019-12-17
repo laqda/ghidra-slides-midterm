@@ -6,3 +6,13 @@
     font-size: 46px;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
 }
+
+.imgArchi {
+}
+
+.titleArchi {
+    font-size: 1.9em !important;
+    color: white !important;
+    background-color: rgba(0,0,0, 0.8);
+    padding: 30px 60px;
+}
