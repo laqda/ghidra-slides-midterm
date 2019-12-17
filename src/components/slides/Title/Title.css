@@ -15,3 +15,8 @@
     font-size: 25px;
     margin-bottom: calc((var(--header-level1-height) + var(--header-level2-height) - var(--footer-height)) / 2) !important;;
 }
+
+.link {
+    color: #bbb !important;
+    font-size: 21px;
+}

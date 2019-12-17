@@ -12,7 +12,8 @@ export const Title = () => {
       <img className={styles.ghidra} src={cover} alt="cover-ghidra"/>
       <div className={styles.names}>
         sous la direction de <b>M. Frédéric Tronel</b><br/>
-        <b>Marianne FAURE</b> & <b>Quentin MICHEL</b>
+        <b>Marianne FAURE</b> & <b>Quentin MICHEL</b><br/>
+        <span className={styles.link}>https://quentm74.github.io/ghidra-slides-midterm/index.html#/</span>
       </div>
     </Slide>
   );
