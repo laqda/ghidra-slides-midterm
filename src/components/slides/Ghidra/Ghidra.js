@@ -5,6 +5,7 @@ import logo from "./logo.png";
 import img_debugger from "./debugger.png";
 import sleigh0 from "./sleigh0.png";
 import sleigh1 from "./sleigh1.png";
+import shared from "./shared.png";
 
 export const ghidraTitles = {
   title: <span>Ghidra <i className={`em em-dragon ${styles.dragon}`}/></span>, // + tweets
@@ -51,7 +52,10 @@ export const Ghidra = () => {
         <img className={`fragment ${styles.sleigh}`} src={sleigh1} alt="sleigh"/>
       </Slide>
       <Slide data-background-color="#f6f8fa">
-        Projet partagé
+        <div className={styles.shared}>
+          <img className={styles.imgShared} src={shared} alt="shared"/>
+          <h5>https://www.ghidra-server.org/</h5>
+        </div>
       </Slide>
       <Slide data-background-color="#f6f8fa">
         <h3>Quid de l'analyse dynamique ?</h3>

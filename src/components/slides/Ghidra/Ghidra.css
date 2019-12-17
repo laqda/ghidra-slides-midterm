@@ -39,3 +39,16 @@
     /*height: 60vh;*/
     max-height: none !important;
 }
+
+.shared > h5 {
+    /*margin: 100px;*/
+    /*box-sizing: border-box;*/
+    color: #555 !important;
+    font-size: 0.8em !important;
+}
+
+.imgShared {
+    /*border: 2px solid #222 !important;*/
+    box-shadow: 0 0 60px rgba(0, 0, 0, 0.15) !important;
+    height: 40vh;
+}
