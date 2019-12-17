@@ -30,3 +30,12 @@
 .imgDebugger {
     width: 80%;
 }
+
+.sleigh {
+    position: absolute;
+    top: calc(50%);
+    margin: 0 !important;
+    /*width: 80vw;*/
+    /*height: 60vh;*/
+    max-height: none !important;
+}

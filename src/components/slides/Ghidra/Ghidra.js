@@ -3,6 +3,8 @@ import styles from "./Ghidra.css";
 import {Slide} from "../../Slide/Slide";
 import logo from "./logo.png";
 import img_debugger from "./debugger.png";
+import sleigh0 from "./sleigh0.png";
+import sleigh1 from "./sleigh1.png";
 
 export const ghidraTitles = {
   title: <span>Ghidra <i className={`em em-dragon ${styles.dragon}`}/></span>, // + tweets
@@ -45,7 +47,8 @@ export const Ghidra = () => {
         </div>
       </Slide>
       <Slide data-background-color="#f6f8fa">
-        P-Code
+        <img className={styles.sleigh} src={sleigh0} alt="sleigh"/>
+        <img className={`fragment ${styles.sleigh}`} src={sleigh1} alt="sleigh"/>
       </Slide>
       <Slide data-background-color="#f6f8fa">
         Projet partagé
