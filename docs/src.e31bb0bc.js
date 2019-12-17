@@ -37108,7 +37108,8 @@ module.hot.accept(reloadCSS);
 module.exports = {
   "title": "_title_3ff0b",
   "ghidra": "_ghidra_3ff0b",
-  "names": "_names_3ff0b"
+  "names": "_names_3ff0b",
+  "link": "_link_3ff0b"
 };
 },{"_css_loader":"../node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/slides/Title/Ghidra.png":[function(require,module,exports) {
 module.exports = "/Ghidra.2c535ace.png";
@@ -37177,7 +37178,9 @@ var Title = function Title() {
     alt: "cover-ghidra"
   }), _react.default.createElement("div", {
     className: _Title.default.names
-  }, "sous la direction de ", _react.default.createElement("b", null, "M. Fr\xE9d\xE9ric Tronel"), _react.default.createElement("br", null), _react.default.createElement("b", null, "Marianne FAURE"), " & ", _react.default.createElement("b", null, "Quentin MICHEL")));
+  }, "sous la direction de ", _react.default.createElement("b", null, "M. Fr\xE9d\xE9ric Tronel"), _react.default.createElement("br", null), _react.default.createElement("b", null, "Marianne FAURE"), " & ", _react.default.createElement("b", null, "Quentin MICHEL"), _react.default.createElement("br", null), _react.default.createElement("span", {
+    className: _Title.default.link
+  }, "https://quentm74.github.io/ghidra-slides-midterm/index.html#/")));
 };
 
 exports.Title = Title;
@@ -38037,7 +38040,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42809" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36453" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

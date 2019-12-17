@@ -2110,6 +2110,11 @@ body {
     margin-bottom: calc((var(--header-level1-height) + var(--header-level2-height) - var(--footer-height)) / 2) !important;;
 }
 
+._link_3ff0b {
+    color: #bbb !important;
+    font-size: 21px;
+}
+
 ._Slide_a6b48 {
     display: flex;
     flex-direction: column;
